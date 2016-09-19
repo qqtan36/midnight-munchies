@@ -1,0 +1,71 @@
+/*
+Web Programming Term Project
+Team name: Web Apes
+Team members: Ashley Baik, John Chiao, Yongquan Tan, Yuchen Yuan
+This is food.css, the style sheet for all pages.
+*/
+.background-image{
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: -1;
+    opacity: .6;
+}
+
+.content{
+    position: inherit;
+    z-index: 2;
+    width: 100%;
+}
+
+.error {
+    text-align: center;
+    color: red;
+}
+
+
+.recipe {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255,255,255,.8);
+    overflow: hidden;
+}
+
+.recipe h3 {
+    clear: both;
+}
+
+.recipe strong {
+    text-decoration: underline;
+}
+
+#space{
+    position: inherit;
+    top: 25%;
+    width: 50%;
+}
+
+#GotoFront {
+    bottom: 70px;
+}
+
+#GotoTop {
+    bottom: 30px;
+}
+
+.sidenav {
+    position: fixed;
+    right: 50px;
+}

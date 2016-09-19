@@ -1,0 +1,46 @@
+
+body{
+	font-family: 'Raleway', sans-serif;
+
+	background-image: url("collage.jpg");
+	background-size: 70%;
+	background-position: center;	
+	background-repeat: no-repeat;
+}
+#head{
+	margin: auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	width: 60%;
+
+}
+
+#questions{
+	width: 70%;
+	margin-right: auto;
+	float: right;
+}
+
+#sweetsavory{
+/*	font-family: 'Raleway', sans-serif;
+*/	padding: 10px 0px 20px;
+/*	margin-left: auto;
+	float: right;
+	clear: left;*/
+}
+
+#ingredients{
+/*	font-family: 'Raleway', sans-serif;
+*/	/*margin-right: auto;
+	float: right;
+	clear: left;
+*/}
+
+.button{
+    font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	background-color: white;
+	padding: 5px 5px 5px 5px;
+}
